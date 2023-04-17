@@ -1,0 +1,75 @@
+/*
+****#ffffff
+****#00171f 8am2
+****#003459  
+****#007ea7 
+#00a8e8 fat7
+*/
+
+/*start navbar*/
+/*.navbar__white{
+    background-color: transparent !important;
+}
+.navbar__dark{
+background-color: #003459 !important ;
+}
+.navbar__light{
+background-color: tomato !important;
+}*/
+ .image2{
+    width: 90px !important;
+    height: 110px !important;
+    margin-top: -26px;
+    margin-bottom: -19px;
+    display: block;
+    
+} 
+.navbarOne {
+    background-color: #003459 !important;
+    /* transition: all 0.5s ease-in !important; */
+}
+/*nav scroll*/
+/* .secondary{
+    background-color: #34495e;
+} */
+/*end nav scroll*/
+.navbarOne button {
+    color: white !important;
+}
+.navbarOne .nav1 a{
+    color: white !important;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in-out;
+   
+}
+.navbarOne .nav1 a:hover{
+    color: #00a8e8 !important;
+    
+}
+.navbarOne .nav2{
+    color: white !important;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in-out;
+}
+.navbarOne .nav2:hover{
+    color: #00a8e8 !important;
+}
+.navbarOne .more .dropdown .nav3{
+    color: #007ea7 !important;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in-out;
+}
+.navbarOne .more .dropdown .nav3:hover{
+    background-color: #00171f;
+    color: #fff !important;
+}
+.dropdown-menu{
+    left: -82px;
+}
+/*end navbar*/

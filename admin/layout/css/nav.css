@@ -1,0 +1,25 @@
+.sidebar{
+    height: 667px !important;
+    margin-left: -12px !important;
+    position: fixed;
+     margin-top: 86px !important; 
+     background-color: #003459 !important;
+}
+.sidebar li .bglink:hover{
+    background-color: #0d6efd;
+}
+.topbar img{
+    width: 70px !important;
+    margin-top: -47px;
+    margin-bottom: -37px;
+}
+.topbar{
+width: 100% !important;
+position: fixed;
+z-index: 9;
+background-color: #003459 !important;
+
+}
+.body2{
+    margin-top: 93px !important;
+}

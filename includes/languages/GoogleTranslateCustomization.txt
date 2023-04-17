@@ -1,0 +1,170 @@
+---------------------------the icon can be found in the following link (to be put in the path public\img\icons) : -----------------------------------
+https://drive.google.com/file/d/12QJunlwHf32_0ULxUGOtEcVqaUDCKR0W/view?usp=sharing
+
+----------------------------------Add following CSS to theme.css:-------------------------------------
+
+.goog-te-banner-frame {display:none;} 
+
+#goog-gt-tt {display:none!important;visibility:hidden!important;}
+
+ 
+ /* .goog-te-menu-value span{ */
+	 /* display:none; */
+ /* } */
+ 
+.goog-te-gadget-simple  {
+  font-family: "Rubik", Helvetica, Arial, sans-serif !important;
+  background-color: rgba(255,255,255,0)!important;
+  border: none !important;
+  padding: 0!important;
+  font-size: 0.875rem !important;
+  cursor: pointer;
+  zoom: 1;
+}
+
+.goog-te-menu2 table{
+	font-family: "Rubik", Helvetica, Arial, sans-serif !important;
+	color: black !important;
+}
+
+.goog-te-menu-frame.skiptranslate {
+  max-width: 100%;
+  border-width: 0 !important;
+  border-radius: 0.188rem!important;
+  box-shadow:none !important;
+  left: 927.125px!important;
+  top: 55.5px!important;
+}
+
+
+.goog-te-menu-value {
+  color: #fff !important;
+    &:before {
+    font-family: "Rubik", Helvetica, Arial, sans-serif !important;
+    content: "\E927";
+    
+    font-size: 0.875rem !important;
+    vertical-align: -10px;
+     width:32px!important;
+  } 
+}
+.goog-te-menu-value span:nth-child(5) {
+  display:none;
+}
+.goog-te-menu-value span:nth-child(3) {
+  border:none!important;
+  font-family: "Rubik", Helvetica, Arial, sans-serif !important;
+  &:after {
+   font-family: "Rubik", Helvetica, Arial, sans-serif !important;
+    content: "\E5C5" !important;
+    font-size: 0.875rem !important;
+    vertical-align: -6px !important;
+  }  
+}
+
+.goog-te-gadget-icon {
+    display:none !important;
+
+}
+
+// ============ HIDE TOP BAR ============ 
+.goog-te-banner-frame.skiptranslate {display: none!important;} 
+body {top: 0px!important;}
+
+/* ================================== *\
+    Mediaqueries
+\* ================================== */
+@media (max-width: 667px) {
+	#google_translate_element {
+		bottom: calc(100% - 50% - 53px);
+		left: 16px!important;
+		width: 100%!important;
+		goog-te-gadget {
+			width:100%!important;
+		}
+		.skiptranslate {
+			width:100%!important;			
+		}
+		.goog-te-gadget-simple {
+			width: calc(100% - 32px)!important;
+			text-align: center;
+		}	
+	}
+}
+
+#google_translate_element{
+	background-image: url('/img/icons/translate.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	visibility: visible;
+	  height: 32px;
+	  width: 32px;
+	  background-position: center;
+}
+
+
+----------------------------------Add following HTML to index.ejs after line 63:----------------------------------------------------
+
+<div class="position-relative px-3 u-header__login-form dropdown-connector-xl u-header__topbar-divider">
+								<i id="google_translate_element" >
+								  </i>
+
+                                <script>
+
+                                function googleTranslateElementInit() {
+								new google.translate.TranslateElement({  
+								  pageLanguage: 'en', 
+								  includedLanguages: 'en,fr,ar,de,ru,zh-CN',
+								  layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+								}, 'google_translate_element');
+							  }
+
+                                </script><script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+                            </div>
+							
+					
+---------------------------------------Add Following Javascript to index.js after jquery loading (line 5200):--------------------------------------
+
+<!-- Google Translate Styling -->
+		<script>
+		$('document').ready(function () {
+		
+		
+		$('#google_translate_element').bind('DOMNodeInserted', function(event) {
+		  $('.goog-te-menu-value span:first').empty();
+		});
+			
+		$("#google_translate_element").on("click", function () {
+			
+			<!-- $("iframe").css({'display': ''}); -->
+			
+			// Change font family and color
+			$("iframe").contents().find(".goog-te-menu2-item div, .goog-te-menu2-item:link div, .goog-te-menu2-item:visited div, .goog-te-menu2-item:active div, .goog-te-menu2 *")
+				.css({
+					'color': '#544F4B',
+					'font-family': '"Rubik", Helvetica, Arial, sans-serif'
+				});
+
+			// Change hover effects
+			$("iframe").contents().find(".goog-te-menu2-item div").hover(function () {
+				$(this).css({'background-color': 'white', 'border': '1px solid #e7eaf3'}).find('span.text').css('color', '#544F4B');
+			}, function () {
+				$(this).css({'background-color': 'white', 'border': 'none'}).find('span.text').css('color', '#544F4B');
+			});
+			// Change Google's default blue border
+			$("iframe").contents().find('.goog-te-menu2').css({
+															'border': '1px solid #e7eaf3',
+															'border-radius': '0.188rem'
+															});
+															
+			// Change the iframe's box shadow
+			$(".goog-te-menu-frame").css({
+				'-moz-box-shadow': '0 3px 8px 2px #666666',
+				'-webkit-box-shadow': '0 3px 8px 2px #666',
+				'box-shadow': '0 3px 8px 2px #666'
+			});
+		
+		});
+	});
+		</script>					

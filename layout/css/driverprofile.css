@@ -1,0 +1,146 @@
+.dprofile .slide .slider-img{
+    margin-top: 0px !important;
+    margin-right: 0px;
+    width: 100%;
+    height: 615px !important;
+}
+.dprofile .slide .slider-img .btn{
+    border: none;
+}
+
+/* .profiledriver .counttrips{
+    width: 100%;
+   background-color: rgb(199, 199, 199);
+   height: 103px;
+   padding-top: 38px;
+   padding-right: 30px;
+    
+} */
+.dprofile .counttrips a{
+    height: 40px !important;
+    margin-right: 18px;
+    
+}
+.dprofile .counttrips .counts{
+    margin-right: 78px !important;
+}
+.dprofile .counttrips .trips{
+    margin-top: 4px;
+    color: black !important;
+}
+.dprofile .counttrips .trips:hover{
+    
+    color: white !important;
+}
+.dprofile .counttrips .rate{
+    margin-top: -30px !important;
+    margin-left: 110px;
+ 
+}
+
+
+
+
+.dprofile .driver-image{
+    width: 250px !important;
+    height: 250px !important;
+    border-radius: 5%;
+    object-fit: cover;
+    position: relative;
+    top: -316px;
+    left: 100px;
+}
+.dprofile .dinfo{
+    margin-top: -237px !important;
+    margin-bottom: 20px;
+}
+ .dprofile .dinfo .card{
+    padding-bottom: 22px;
+    
+}
+.dprofile .dinfo .card h5{
+    font-size: 43px !important;
+    font-weight: 800;
+}
+
+/*.profiledriver .driverinfo .card .card-header{
+    padding-top: 18px !important;
+    padding-left: 22px;
+    padding-bottom: 18px;
+} */
+.dprofile .dinfo .card .in{
+   
+   margin-bottom: 10px !important;
+}
+.dprofile .dinfo .card span{
+    margin-top: 10px;
+    margin-left:22px  ;
+}
+.dprofile .dinfo .card .card-header{
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+}
+
+
+.dprofile .test{
+    margin-bottom: 291px !important;
+}
+.dprofile .btns{
+    margin-top: -42px !important;
+}
+.dprofile .btns .btn{
+    color: black !important;
+    margin-bottom: 10px !important;
+
+}
+.dprofile .btns .btn2{
+  width: 125px !important;
+
+}
+.dprofile .btns .btn:hover{
+    color: white !important;
+}
+@media (max-width: 570px) {
+    .dprofile .slide .slider-img{
+      
+        height: 211px !important;
+    }
+
+    .dprofile .driver-image{
+      border-radius: 50% !important;
+      width: 200px !important;
+      height: 200px !important;
+        top: -393px;
+     
+    }
+    .dprofile .counttrips{
+        margin-top: 140px !important;
+        margin-bottom: 45px !important;
+    }
+    .dprofile .counttrips a{
+        height: 40px !important;
+        margin-right: 10px;
+        
+    }
+    .dprofile .counttrips .rate{
+        margin-top: 17px !important;
+        margin-left: 110px;
+     
+    }
+    .dprofile .counttrips .counts{
+        margin-right: 158px !important;
+    }
+   
+
+}
+
+
+/*user profile*/
+.userProfile .user-image{
+    margin-left: 86px !important;
+}
+@media (max-width: 570px) {
+    .userProfile .user-image{
+        margin-right: 81px !important;
+    }
+}

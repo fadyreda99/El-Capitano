@@ -1,0 +1,70 @@
+
+
+.find{
+    margin-top: 30px !important;
+}
+.find h2{
+    font-size: 70px !important;
+    font-weight: 700;
+}
+.find p{
+    font-size: 30px !important;
+    font-weight: 500;
+}
+.use h1{
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 43px;
+}
+.use ul li{
+   
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.aboutus{
+    margin-top: 64px;
+}
+.aboutus h1{
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 43px;
+}
+.aboutus h4{
+    font-size: 33px !important;
+    text-align: center;
+}
+
+
+
+  @media (max-width: 570px) {
+    .find{
+        margin-top: 12px !important;
+    }
+    .find p{
+        font-size: 23px !important;
+        font-weight: 500;
+    }
+    .find h2{
+        font-size: 50px !important;
+        font-weight: 700;
+    }
+    .use h1{
+        font-size: 50px !important;
+        font-weight: 700;
+    }
+    .somedrivers h2{
+        font-size: 46px !important;
+        font-weight: 700;
+    }
+    .aboutus h1{
+        font-size: 50px !important;
+        font-weight: 700; 
+    }
+    .aboutus h4{
+        font-size: 26px !important;
+        text-align: center;
+    }
+   
+
+  }

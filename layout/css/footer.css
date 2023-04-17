@@ -1,0 +1,73 @@
+/*
+****#ffffff
+****#00171f 8am2
+****#003459  
+****#007ea7 
+****#00a8e8 fat7
+*/
+
+/*start footer*/
+footer{
+    background-color: #00171f !important;
+    color: white !important;
+    margin-top: 20px !important;
+}
+footer .linkss a{
+    color: white !important;
+}
+footer .linkss a:hover{
+    color: #00a8e8 !important;
+}
+footer .links{
+    margin-left: 450px;
+    
+}
+footer .links-driver{
+    margin-left: 494px;
+    
+}
+.icons i{
+    font-size: 100px !important;
+    margin-right: 15px ;
+}
+.icons a{
+    color: white !important;
+}
+.icons a:hover{
+    color: white !important;
+}
+@media (max-width:540px) {
+    footer .copy{
+        text-align: center;
+    }
+    footer .links{
+        margin-left: 0px;
+        text-align: center;
+    }
+    footer .links-driver{
+        margin-left: 0;
+        text-align: center;
+        
+    }
+}
+/*footer .half{
+   
+    width: 45%;
+    float: left;
+    margin-right: -88px;
+    margin-left: 73px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+}*/
+        
+  /* footer .anc{
+       text-align: right;
+   } 
+   footer .anc a{
+    text-decoration: none;
+    color: gray;
+    margin-left: 2px;
+} 
+*/
+/*end footer*/

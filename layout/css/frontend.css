@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+/*
+****#ffffff
+****#00171f 8am2
+****#003459  
+****#007ea7 
+****#00a8e8 fat7
+*/
+
+/* start main */
+*{
+    text-transform: capitalize !important;
+}
+
+body{
+    background-color: white !important;
+    font-size: 17px;
+   /* height: 1000px*/
+}
+
+a{
+    text-decoration: none;
+    
+    color: black;
+}
+a:hover{
+    color: rgb(109, 109, 109);
+}
+
+.tabl__tr {
+    background-color: black !important;
+}
+.btn{
+    color: white;
+}
+.btn:hover{
+    color: white;
+}
+/*end main*/
+
+
+
+
+
+
+
+
+
+/*start home*/
+.per-error a{
+    position: relative;
+    top: -7px;
+}
+/*start home*/
+/*start personal & car form*/
+
+.edit{
+    color: rgb(168, 168, 168);
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 700;;
+}
+.edit-from{
+    /*width: 500px;*/
+    margin:100px auto;
+    width: 395px;
+    margin-top: 43px;
+    position: relative;
+}
+.edit-from .btn{
+    width: 357px;
+    position: relative;
+    left: 10px;
+    top: 22px}
+
+ div .eye{
+    position: absolute;
+    font-size: 19px;
+  
+    left: 345px;
+    top: 179px;
+     font-weight: 100 !important;
+     opacity: 0.5;
+    }
+
+
+
+/*start personal form*/
+
+
+/*start profile page*/
+
+
+.profile-parent .card{
+    margin-top: 20px;
+}
+
+.profile-parent .car-information{
+    margin-bottom: 20px;
+}
+
+.profile-parent .card .card-header{
+    font-size: 20px;
+    font-weight: bold;
+}
+.info-error {
+    margin-top: 10px;
+}
+.profile-parent .per-buttons{
+    margin-bottom: 10px;
+}
+/*end profile page*/
+
+/*start drivers page*/
+.driver-box{
+    margin-top: 50px;
+}
+
+
+
+
+/*end drivers page*/
+
+
+/*start driverprofile page*/
+/* .slide{
+    
+    margin: auto;
+    position: relative;
+}
+
+.slider-img {
+    max-height: 500px;
+    margin-top: 50px;
+    margin-bottom: 145px;
+    margin-left: 0 auto;
+}
+.slider-img img{
+    max-height: 500px;
+    max-width: 100%;
+}
+.slider-img .btn{
+    border: none;
+}
+.slide .driver-image{
+    border-radius: 17%;
+    max-width: 240px;
+    display: block;
+    max-height: 240px;
+    margin: auto;
+    margin-bottom: 10px;
+    position: absolute;
+    margin-left: 0 auto !important;
+    top: 400px;
+    right: 583px;
+}
+.personal-info .card{
+    margin-top: 20px;
+}
+
+.personal-info  .car-information{
+    margin-bottom: 20px;
+}
+
+.personal-info  .card .card-header{
+    font-size: 20px;
+    font-weight: bold;
+}
+.info-error {
+    margin-top: 10px;
+}
+.personal-info  .per-buttons{
+    margin-bottom: 10px;
+    margin-top: 10px;
+} */
+/*end driverprofile page*/
+
+/*user profile page*/
+/* .user-image{
+    border-radius: 17%;
+    max-width: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+   margin-top: 20px;
+    margin-left: 0 auto !important;
+  
+   
+} */

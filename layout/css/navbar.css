@@ -1,0 +1,65 @@
+/*
+****#ffffff
+****#00171f 8am2
+****#003459  
+****#007ea7 
+****#00a8e8 fat7
+*/
+
+/*start navbar*/
+.navbarTwo {
+  background-color: #003459 !important;
+}
+.navbarTwo button {
+  color: white !important;
+}
+.navbarTwo .nav1 a {
+  color: white !important;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  transition: all 0.5s ease-in-out;
+}
+.navbarTwo .nav1 a:hover {
+  color: #00a8e8 !important;
+}
+.navbarTwo .nav2 {
+  color: white !important;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  transition: all 0.5s ease-in-out;
+}
+.navbarTwo .nav2:hover {
+  color: #00a8e8 !important;
+}
+.navbarTwo .more .dropdown .nav3 {
+  color: #007ea7 !important;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: all 0.5s ease-in-out;
+}
+.navbarTwo .more .dropdown .nav3:hover {
+  background-color: #00171f;
+  color: #fff !important;
+}
+.dropdown-menu {
+  left: -82px;
+}
+
+.navbarTwo > .container > .navbar-collapse {
+  width: 75% !important;
+}
+
+.head__link {
+  margin-left: -80px !important;
+}
+
+/*end navbar*/
+.goog-te-gadget img {
+  display: none !important;
+}
+.goog-logo-link {
+  display: none !important;
+}

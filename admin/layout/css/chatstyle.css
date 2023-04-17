@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/*chat area*/
+
+.chat-box .chat p{
+    word-wrap: break-word;
+    padding: 8px 16px;
+    box-shadow: 0 0 32px rgb(0 0 0 /8%),
+                0 16px 16px -16px rgb(0 0 0 /10%)
+}
+.chat-box .outgoing{
+    display: flex;
+}
+.outgoing .details{
+    margin-left: auto;
+    max-width: calc(100% - 130px);
+}
+.outgoing .details p{
+    background:#007ea7;
+    color: #fff;
+    border-radius: 18px 18px 0 18px;
+}
+.chat-box .incoming{
+    display: flex;
+    align-items: flex-end;
+}
+.chat-box .incoming img{
+    height: 35px;
+    width: 35px;
+}
+.incoming .details{
+    margin-left: 10px;
+    margin-right: auto;
+    max-width: calc(100% - 130px);
+}
+.incoming .details p{
+    color: #333;
+    background: rgb(211, 209, 209);
+    border-radius: 18px 18px 18px 0;
+}
+
+.typing-area button{
+width: 100% !important;
+margin-top: -10px !important;
+}
+
+ .chat-area .typing-area{
+    /* padding: 10px 20px; */
+    display: flex;
+    justify-content: space-between;
+  
+}
+.typing-area input{
+    height: 45px;
+    
+    width: 100% !important;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    /* padding: 0 13px; */
+    border-radius: 15px 15px 0 0;
+    outline: none;
+}
+.typing-area button{
+    height: 45px;
+    /* margin-top: 10px !important;
+    margin-left: -17px !important; */
+    padding: 0 13px;
+    width: 55px;
+    border: none;
+    outline: none;
+    background: #007ea7;
+    color: #fff;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 0 0 15px 15px;
+    /* padding-bottom: 50px !important; */
+     
+} 
+

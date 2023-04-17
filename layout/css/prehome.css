@@ -1,0 +1,347 @@
+*{
+    text-transform: capitalize !important;
+}
+
+.nav33{
+    background-color: #003459 !important;
+}
+.nav33 a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 25px;
+    transition: all 0.5s ease-in-out;
+    font-weight: 700;
+}
+.nav33 a:hover{
+    
+    color: #00a8e8 !important;
+}
+.nav33  .image2{
+    width: 80px !important;
+    height: 110px !important;
+    margin-top: -26px;
+    margin-bottom: -19px;
+    /* display: block; */
+    
+} 
+.nav33 .nav-link{
+    color: white !important;
+    /* display: block !important; */
+}
+.footerhome{
+    background-color: #00171f !important;
+    color: white !important;
+     margin-top: 200px !important; 
+}
+.home2 .home-img img{
+    width: 100%;
+    height: 100%;
+    margin-top: -50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home2 .home-img .text{
+    font-size: 100px !important;
+    font-weight: 700;
+    position: relative;
+    top: -585px;
+    left: 100px;
+    color: white;
+    width: 100px;
+
+
+}
+.home2 .home-img .text span{
+    color: white;
+}
+@media (max-width:570px) {
+    .home2 .home-img .text{
+      display: none;}
+}
+.find{
+    margin-top: -293px !important;
+}
+.find h2{
+    font-size: 70px !important;
+    font-weight: 700;
+}
+.find p{
+    font-size: 30px !important;
+    font-weight: 500;
+}
+.use h1{
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 43px;
+}
+.use ul li{
+   
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 20px !important;
+}
+
+.aboutus{
+    margin-top: 64px;
+}
+.aboutus h1{
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 43px;
+}
+.aboutus h4{
+    font-size: 33px !important;
+    text-align: center;
+}
+
+
+/*some drivers*/
+.somedrivers h2{
+    font-size: 70px !important;
+    font-weight: 700;
+}
+.third{
+   
+    background-color: wheat ;
+    margin-right: 3%;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.awesome .third span{
+    padding: 10px;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #edeffe;
+    transition: all .5s ease-in-out;
+}
+.awesome i{
+    font-size: 50px;
+    background-color: #edeffe;
+    color: #5268f2;
+    padding: 20px 30px;
+    border-radius: 50%;
+
+}
+.awesome .third span:hover{
+    border: 1px dashed #edeffe;
+transform: rotatey(180deg);
+}
+.awesome .third span:hover i{
+background-color: #5268f2;
+color: #fff;
+}
+
+.somedrivers{
+    text-align: center;
+    padding: 100px 0;
+    background-color: white;
+    border-radius: 5px;
+}
+.somedrivers h2 span{
+    color: #5268f2;
+}
+.somedrivers > p{
+    width: 200px;
+    margin: 10px auto;
+
+}
+.somedrivers .third{
+    background-color: #fff;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.somedrivers .container{
+    margin-top: 50px;
+}
+.somedrivers h4{
+    color: #5268f2;
+}
+.somedrivers .fa-star{
+    color:orangered
+}
+.somedrivers .third img{
+   transition: all 0.3s ease-in-out;
+   border-radius: 50%;
+   border: 3px dashed transparent;
+}
+.somedrivers .third:hover img{
+    transform: rotateY(180deg);
+    border: 3px dashed #5268f2;
+}
+.somedrivers .third .fa-star{
+    transition: all 0.3s ease-in-out;
+}
+.somedrivers .third:hover .fa-star{
+    color:orange
+  }
+  .usomedrivers .third:hover{
+      margin-top: -30px;
+      box-shadow: 0 0 10px #ddd;
+  }
+  .use .video{
+      width: 600px !important;
+  }
+ .footerhome .icons i{
+    font-size: 100px !important;
+    margin-right: 15px ;
+}
+.footerhome .icons a{
+    color: white !important;
+}
+.footerhome .icons a:hover{
+    color: white !important;
+}
+.footerhome .fo{
+    /* margin-left: 10px !important; */
+    text-align: center;
+}
+
+  @media (max-width: 570px) {
+    .find{
+        margin-top: 12px !important;
+    }
+    .find p{
+        font-size: 23px !important;
+        font-weight: 500;
+    }
+    .find h2{
+        font-size: 50px !important;
+        font-weight: 700;
+    }
+    .use h1{
+        font-size: 50px !important;
+        font-weight: 700;
+    }
+    .somedrivers h2{
+        font-size: 46px !important;
+        font-weight: 700;
+    }
+    .aboutus h1{
+        font-size: 50px !important;
+        font-weight: 700; 
+    }
+    .aboutus h4{
+        font-size: 26px !important;
+        text-align: center;
+    }
+    .footerhome .fo{
+        text-align: center;
+    }
+    .use .video{
+        width: 386px !important;
+    }
+
+  }
+
+  .goog-logo-link{
+      display: none !important;
+  }
+
+  /*
+.goog-te-banner-frame {display:none;} 
+
+#goog-gt-tt {display:none!important;visibility:hidden!important;}
+*/
+ 
+ /* .goog-te-menu-value span{ */
+	 /* display:none; */
+ /* } */
+ /*/=
+.goog-te-gadget-simple  {
+  font-family: "Rubik", Helvetica, Arial, sans-serif !important;
+  background-color: rgba(255,255,255,0)!important;
+  border: none !important;
+  padding: 0!important;
+  font-size: 0.875rem !important;
+  cursor: pointer;
+  zoom: 1;
+}
+
+.goog-te-menu2 table{
+	font-family: "Rubik", Helvetica, Arial, sans-serif !important;
+	color: black !important;
+}
+
+.goog-te-menu-frame.skiptranslate {
+  max-width: 100%;
+  border-width: 0 !important;
+  border-radius: 0.188rem!important;
+  box-shadow:none !important;
+  left: 927.125px!important;
+  top: 55.5px!important;
+}
+
+
+.goog-te-menu-value {
+  color: #fff !important;
+   
+}
+.goog-te-menu-value::before {
+    font-family: "Rubik", Helvetica, Arial, sans-serif !important;
+    content: "\E927";
+    
+    font-size: 0.875rem !important;
+    vertical-align: -10px;
+     width:32px!important;
+  }
+.goog-te-menu-value span:nth-child(5) {
+  display:none;
+}
+.goog-te-menu-value span:nth-child(3) {
+  border:none!important;
+  font-family: "Rubik", Helvetica, Arial, sans-serif !important;
+   
+}
+.goog-te-menu-value span::after {
+    font-family: "Rubik", Helvetica, Arial, sans-serif !important;
+     content: "\E5C5" !important;
+     font-size: 0.875rem !important;
+     vertical-align: -6px !important;
+   } 
+
+.goog-te-gadget-icon {
+    display:none !important;
+
+}
+*/
+ /* ============ HIDE TOP BAR ============  */
+/*.goog-te-banner-frame.skiptranslate {display: none!important;} 
+body {top: 0px!important;}*/
+
+/* ================================== *\
+    Mediaqueries
+\* ================================== */
+/*
+@media (max-width: 667px) {
+	#google_translate_element {
+		bottom: calc(100% - 50% - 53px);
+		left: 16px!important;
+		width: 100%!important;
+		
+	}
+    .goog-te-gadget {
+        width: 100% !important;
+    }
+    .skiptranslate {
+        width:100%!important;			
+    }
+    .goog-te-gadget-simple {
+        width: calc(100% - 32px)!important;
+        text-align: center;
+    }
+}
+
+#google_translate_element{
+	background-image: url('/img/icons/translate.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	visibility: visible;
+	  height: 32px;
+	  width: 32px;
+	  background-position: center;
+}*/

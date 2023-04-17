@@ -1,0 +1,160 @@
+.profiledriver .slide .slider-img {
+  margin-top: 0px !important;
+  margin-right: 0px;
+  width: 100%;
+  height: 700px !important;
+}
+.profiledriver .slide .slider-img .btn {
+  border: none;
+}
+
+/* .profiledriver .counttrips{
+    width: 100%;
+   background-color: rgb(199, 199, 199);
+   height: 103px;
+   padding-top: 38px;
+   padding-right: 30px;
+
+} */
+.profiledriver .counttrips a {
+  height: 40px !important;
+  margin-right: 18px;
+}
+.profiledriver .counttrips .trips {
+  margin-top: 4px;
+  color: black !important;
+}
+.profiledriver .counttrips .trips:hover {
+  color: white !important;
+}
+.profiledriver .counttrips .rate {
+  margin-top: -30px !important;
+  margin-left: 110px;
+}
+
+.profiledriver .driver-image {
+  width: 250px !important;
+  height: 250px !important;
+  border-radius: 5%;
+  object-fit: cover;
+  position: relative;
+  top: -316px;
+  left: 100px;
+}
+.profiledriver .driverinfo {
+  margin-top: -237px !important;
+  margin-bottom: 20px;
+}
+.profiledriver .driverinfo .card {
+  padding-bottom: 22px;
+}
+.profiledriver .driverinfo .card h5 {
+  font-size: 43px !important;
+  font-weight: 800;
+}
+
+/*.profiledriver .driverinfo .card .card-header{
+    padding-top: 18px !important;
+    padding-left: 22px;
+    padding-bottom: 18px;
+} */
+.profiledriver .driverinfo .card .in {
+  margin-bottom: 10px !important;
+}
+.profiledriver .driverinfo .card span {
+  margin-top: 10px;
+  margin-left: 22px;
+}
+.profiledriver .driverinfo .card .card-header {
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
+}
+.profiledriver .trip {
+  margin-top: 50px !important;
+  margin-bottom: -173px;
+}
+
+.profiledriver .trip h2 {
+  font-size: 47px;
+  font-weight: 700;
+}
+
+.profiledriver .test {
+  margin-bottom: 291px !important;
+}
+.profiledriver .trips-table {
+  margin-top: -230px !important;
+}
+
+@media (max-width: 570px) {
+  .profiledriver .slide .slider-img {
+    height: 211px !important;
+  }
+
+  .profiledriver .driver-image {
+    border-radius: 50% !important;
+    width: 200px !important;
+    height: 200px !important;
+    top: -393px;
+  }
+  .profiledriver .counttrips {
+    margin-top: 140px !important;
+    margin-bottom: 45px !important;
+  }
+  .profiledriver .counttrips a {
+    height: 40px !important;
+    margin-right: 10px;
+  }
+  .profiledriver .counttrips .rate {
+    margin-top: 17px !important;
+    margin-left: 110px;
+  }
+}
+
+.counttrips__final > .row > * {
+  padding-left: 0 !important;
+}
+
+/*user profile*/
+.userProfile .user-image {
+  border-radius: 50% !important;
+  width: 200px;
+  height: 200px;
+  margin-top: 25px;
+  margin-bottom: 23px;
+  margin-left: 76px;
+}
+
+.userProfile .trips {
+  color: black;
+  width: 80%;
+  margin-left: 10%;
+  box-shadow: -1px 4px 11px -1px;
+  transition: all 1s ease-in-out !important;
+}
+
+.userProfile .trips:hover {
+  box-shadow: -9px 9px 21px 10px rgb(95, 95, 95) !important;
+  color: white !important;
+}
+
+.userProfile .first-head {
+  color: #6c757d !important ;
+  margin-top: -14px !important;
+  margin-bottom: 13px !important;
+}
+
+.userProfile .second-head {
+  color: #6c757d !important ;
+  margin-top: -14px !important;
+  margin-bottom: 13px !important;
+}
+.userProfile .btn-setinfo {
+  margin-bottom: 357px !important;
+}
+
+@media (max-width: 570px) {
+  .userProfile .user-image {
+    margin-left: 90px;
+  }
+}
